@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.nav{
+    background: #00a651;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1{
+   padding: 5rem;
+   color: #fff;
+   text-transform: uppercase;
+   font-family: cursive;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+
+.list a:hover{
+    color: #000;
+}
+
+.icon{
+    padding: 30px 50px;
+    color: #fff;
+    font-size: 18px;
+}
+
+div .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.pod-card{
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.pod_card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pod_card:hover{
+    transform: translateY(-10px);
+}
+
+.pod_card img{
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.pod_card p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
