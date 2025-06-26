@@ -28,11 +28,11 @@ const Header = ({ dark, onToggle }) => {
       {/* Login, Cart, Light/Dark */}
       <div className="flex items-center gap-4 ml-4">
         <button className="border border-cyan-500 px-3 py-1 rounded-md hover:bg-cyan-500">
-          👤 Login
+          👤 Login 👤
         </button>
 
         <button className="border border-cyan-500 px-3 py-1 rounded-md hover:bg-cyan-500 flex items-center gap-1">
-          🛒 Cart
+          🛒 Cart 🛒
         </button>
       </div>
     </header>
